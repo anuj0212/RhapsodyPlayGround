@@ -1,0 +1,56 @@
+I-Logix-RPY-Archive version 8.12.0 C++ 9738229
+{ ISubsystem 
+	- _id = GUID f28dd68b-9def-45ef-8c34-436c62e5eb48;
+	- _myState = 8192;
+	- _name = "SWPack1";
+	- _modifiedTimeWeak = 7.4.2018::8:59:42;
+	- _lastID = 1;
+	- weakCGTime = 7.4.2018::8:59:42;
+	- strongCGTime = 7.3.2018::9:28:26;
+	- _defaultComposite = GUID d346fecf-7362-4468-a440-5d3fa937b074;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID d346fecf-7362-4468-a440-5d3fa937b074;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _modifiedTimeWeak = 7.3.2018::9:28:26;
+			- weakCGTime = 7.3.2018::9:28:26;
+			- strongCGTime = 7.3.2018::9:28:26;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 4320ad34-1b4f-4c14-91d3-4be91f1787c6;
+			- _myState = 8192;
+			- _name = "SwClass1";
+			- Stereotypes = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IHandle 
+					- _m2Class = "IStereotype";
+					- _filename = "$OMROOT\\Profiles\\SysML\\SysMLProfile_rpy\\SysML.sbs";
+					- _subsystem = "SysML::Blocks";
+					- _class = "";
+					- _name = "Block";
+					- _id = GUID f685432f-691e-4ff1-be70-4d09d19457e1;
+				}
+			}
+			- _modifiedTimeWeak = 7.4.2018::8:59:53;
+			- weakCGTime = 7.4.2018::8:59:53;
+			- strongCGTime = 7.4.2018::8:59:53;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+
